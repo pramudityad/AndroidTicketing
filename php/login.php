@@ -32,5 +32,6 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
     $response["error"] = TRUE;
     $response["error_msg"] = "Required parameters missing :(!";
     echo json_encode($response);
+    //jansdo
 }
 ?>
