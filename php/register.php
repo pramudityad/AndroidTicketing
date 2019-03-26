@@ -2,7 +2,7 @@
  
 require_once 'include/db_functions.php';
  
-// json response array
+// json response array asldnkwqd asdkmkmwd;qw
 $response = array("error" => FALSE);
  
 if (isset($_POST['username']) && isset($_POST['email']) && isset($_POST['password'])) {
