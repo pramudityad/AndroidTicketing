@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "523486707296",
+    "firebase_url": "https://androidixtmobile.firebaseio.com",
+    "project_id": "androidixtmobile",
+    "storage_bucket": "androidixtmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523486707296:android:d9acc402277c9ed6",
+        "android_client_info": {
+          "package_name": "com.ericsson.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523486707296-sqb1733dtpoeu0jjgggdphvqubv4rp29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA53lLucCK4dT6-t--n77RW9w9YS231Fss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

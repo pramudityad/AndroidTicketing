@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.vipul.hp_hp.timelineview.TimelineView
+            android:paddingLeft="30dp"
+            app:marker="@drawable/timeline_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:marker_size="20dp"
+            app:line_size="1dp"
+            app:line="@color/darkgrey"/>
+
+
+    <TextView
+        android:id="@+id/tvTimestamp"
+        android:layout_width="80dp"
+        android:layout_height="52dp"
+        android:text="12-12-2017 08:06:56"
+        android:textColor="@color/darkgrey"
+        android:textSize="15dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvtflowuserid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="ETBMALJ"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvactivitycomment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:text="Ticket Closed Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
